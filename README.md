@@ -44,3 +44,9 @@ Update와 Destroy하는 곳은 직접 frontend를 입력하면서 customizing해
 Update와 Destroy하는 곳은 직접 frontend를 입력하면서 customizing해보세요!
 
 4) 다른 frontend부분은 건드리시지 않으셔도 무방하나, 마음에 안드실 경우 assets/stylesheets/peachter.scss파일로 오셔서 마음껏 바꾸어보세요!
+
+NEW 미션!!
+5)트위터는 최신 글이 위로 올라옵니다! 순서를 변경해보세요!
+
+6)트위터의 생명 하트버튼! 그러나 지금은 켜지지 않습니다...당신의 능력으로 하트를 움직여주세요!
+HINT! application.css 의 class별 상태를 유심히 봐주세요.

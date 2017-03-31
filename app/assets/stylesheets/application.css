@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+.heart {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-image:url(  'twitter-heart-button.png');
+  background-position: left;
+  background-repeat:no-repeat;
+  background-size:2900%;
+ }
+
+ .heart:hover {
+  background-position: right;
+ }
+
+
+
+ .animating {
+  animation: heart-burst .8s steps(28) 1;
+ }
+
+ @keyframes heart-burst {
+ from {background-position:left;}
+ to { background-position:right;}
+ }
+ 
